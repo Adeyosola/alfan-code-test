@@ -3,21 +3,8 @@ import {Card } from 'material-ui/Card';
 import {Row, Col, DropdownButton, MenuItem} from 'react-bootstrap'
 import '../styles/App.css';
 import FontAwesome from 'react-fontawesome'
-import barb from '../img/barb.jpg';
-import cat from '../img/cat.jpg';
-import girl from '../img/girl.jpg';
-import dog from '../img/dog.jpg';
-import boy from '../img/boy.png'
-import dash from '../img/dash.jpg'
-import friends from '../img/friends.jpg'
-import room from '../img/room.jpg'
-import spain from '../img/flags/spain.png'
-import canada from '../img/flags/canada.png'
-import sweden from '../img/flags/sweden.png'
-import us from '../img/flags/us.png'
-import gb from '../img/flags/gb.png'
-import france from '../img/flags/france.png'
-import argentina from '../img/flags/argentina.png'
+import { barb, cat, girl, dog, boy, dash, friends, room, spain, canada, sweden, us, gb, france, argentina } from '../img/'
+
 
 class Content extends Component {
   render() {

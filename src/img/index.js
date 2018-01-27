@@ -1,0 +1,15 @@
+export const barb = require('./barb.jpg');
+export const cat = require('./cat.jpg');
+export const dog = require('./dog.jpg');
+export const dash = require('./dash.jpg');
+export const girl = require('./girl.jpg');
+export const friends = require('./friends.jpg');
+export const boy = require('./boy.png');
+export const room = require('./room.jpg');
+export const spain = require( './flags/spain.png');
+export const canada = require('./flags/canada.png');
+export const sweden = require('./flags/sweden.png');
+export const us = require('./flags/us.png');
+export const gb = require('./flags/gb.png');
+export const france = require('./flags/france.png');
+export const argentina = require('./flags/argentina.png');
