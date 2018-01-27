@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import SliderComp from './SliderComp.js'
-import {Form, FormGroup, FormControl } from 'react-bootstrap'
+import {form, Form, FormGroup, FormControl } from 'react-bootstrap'
 
 import Slider from 'rc-slider'
 import Checkbox from 'material-ui/Checkbox'
@@ -17,7 +17,7 @@ class Sidebar extends Component {
           <h4> General Search Criteria</h4>
           <h5>Total Followers</h5>
           <div>
-            <Form inline className="form">
+            <form className="form-inline">
               <FormGroup controlId="formBasicText">         
                 <FormControl
                   type="text"           
@@ -28,7 +28,7 @@ class Sidebar extends Component {
                   placeholder="5M+"           
                 />          
               </FormGroup>
-            </Form>
+            </form>
           </div>
           <SliderComp/>
           <h5>Vertical</h5>
@@ -60,7 +60,7 @@ class Sidebar extends Component {
             size='2x'
             style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)',  margin:'20px' }}
           />
-          <Form inline className="form">
+          <Form className="form-inline form">
               <FormGroup controlId="formBasicText">         
                 <FormControl
                   type="text"           
@@ -125,7 +125,7 @@ class Sidebar extends Component {
                 /> 
                 <FormControl
                   type="text"           
-                  placeholder="5M+"           
+                  placeholder="30"           
                 />          
               </FormGroup>
             </Form>
@@ -141,7 +141,7 @@ class Sidebar extends Component {
                 /> 
                 <FormControl
                   type="text"           
-                  placeholder="5M+"           
+                  placeholder="10M"           
                 />          
               </FormGroup>
             </Form>
@@ -156,7 +156,7 @@ class Sidebar extends Component {
                 /> 
                 <FormControl
                   type="text"           
-                  placeholder="5M+"           
+                  placeholder="100M"           
                 />          
               </FormGroup>
             </Form>

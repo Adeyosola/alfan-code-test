@@ -9,7 +9,7 @@ class Appbar extends Component {
     	<div>
     		<Navbar>
 				  <Navbar.Header>
-            <img src={alfan} className="App-logo" />					
+            <img src={alfan} className="App-logo" alt="" />					
 						<a href="#home"> alfan</a>
 					</Navbar.Header>	
           <Navbar.Text >

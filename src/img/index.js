@@ -12,4 +12,3 @@ export const sweden = require('./flags/sweden.png');
 export const us = require('./flags/us.png');
 export const gb = require('./flags/gb.png');
 export const france = require('./flags/france.png');
-export const argentina = require('./flags/argentina.png');

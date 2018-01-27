@@ -3,7 +3,7 @@ import {Card } from 'material-ui/Card';
 import {Row, Col, DropdownButton, MenuItem} from 'react-bootstrap'
 import '../styles/App.css';
 import FontAwesome from 'react-fontawesome'
-import { barb, cat, girl, dog, boy, dash, friends, room, spain, canada, sweden, us, gb, france, argentina } from '../img/'
+import { barb, cat, girl, dog, boy, dash, friends, room, spain, canada, sweden, us, gb, france } from '../img/'
 
 
 class Content extends Component {
@@ -262,7 +262,7 @@ class Content extends Component {
 							          style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' , color:'gray'}}
 							        />
 							        <br/>
-									<img src={canada} alt="" /> Canada | Gaming
+									<img src={spain} alt="" /> Spain | Gaming
 									<br/>
 									4.2m Avg views | 21.4m Subscribers
 								</p>				     
@@ -288,7 +288,7 @@ class Content extends Component {
 							          style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' , color:'gray'}}
 							        />
 							        <br/>
-									<img src={sweden} alt="" /> Sweden | Gaming
+									<img src={gb} alt="" /> Britain| Gaming
 									<br/>
 									3.5m Avg views | 57.2m Subscribers
 								</p>						     
