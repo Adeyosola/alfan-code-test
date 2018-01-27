@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import SliderComp from './SliderComp.js'
 import {Form, FormGroup, FormControl } from 'react-bootstrap'
-import Textbox from './Textbox'
+
 import Slider from 'rc-slider'
 import Checkbox from 'material-ui/Checkbox'
 import FontAwesome from 'react-fontawesome'
@@ -60,7 +60,15 @@ class Sidebar extends Component {
             size='2x'
             style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)',  margin:'20px' }}
           />
-          <Textbox/>
+          <Form inline className="form">
+              <FormGroup controlId="formBasicText">         
+                <FormControl
+                  type="text"           
+                  placeholder="30%"           
+                /> 
+                       
+              </FormGroup>
+            </Form>
           <Slider
             trackStyle={[{ backgroundColor: '#af1f29' }]}
             defaultValue = {30}
@@ -109,16 +117,49 @@ class Sidebar extends Component {
         <div className='SliderComp'>
 
           <h5>Posts in last 30 days</h5>
-          <Textbox/>
+          <Form inline className="form">
+              <FormGroup controlId="formBasicText">         
+                <FormControl
+                  type="text"           
+                  placeholder="0"           
+                /> 
+                <FormControl
+                  type="text"           
+                  placeholder="5M+"           
+                />          
+              </FormGroup>
+            </Form>
           <SliderComp/>
 
           <h4>Youtube Search Criteria</h4>
           <h5>Subcribers</h5>
-          <Textbox/>
+          <Form inline className="form">
+              <FormGroup controlId="formBasicText">         
+                <FormControl
+                  type="text"           
+                  placeholder="0"           
+                /> 
+                <FormControl
+                  type="text"           
+                  placeholder="5M+"           
+                />          
+              </FormGroup>
+            </Form>
           <SliderComp/>
 
           <h5>Views in Last 30 days</h5>
-          <Textbox/>
+          <Form inline className="form">
+              <FormGroup controlId="formBasicText">         
+                <FormControl
+                  type="text"           
+                  placeholder="0"           
+                /> 
+                <FormControl
+                  type="text"           
+                  placeholder="5M+"           
+                />          
+              </FormGroup>
+            </Form>
           <SliderComp/>
           <br/>
 
