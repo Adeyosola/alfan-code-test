@@ -12,7 +12,7 @@ class SliderComp extends Component {
     	<div className= "SliderComp">
 
     		<Range
-    			defaultValue={[0, 100]}
+    			defaultValue={[0, 100]}                
     			trackStyle={[{ backgroundColor: '#af1f29' }]}
         		handleStyle={[
         			{ backgroundColor: 'white' }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Navbar } from 'react-bootstrap';
-//import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import alfan from '../alfan.png';
 
 
@@ -14,7 +13,7 @@ class Appbar extends Component {
 						<a href="#home"> alfan</a>
 					</Navbar.Header>	
           <Navbar.Text >
-           Influencer Finder
+           <p style={{marginLeft: '300px', fontSize: '30px'}}>Influencer Finder</p>
           </Navbar.Text>	
 			  </Navbar>
     	</div>    	    

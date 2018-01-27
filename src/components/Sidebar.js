@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import SliderComp from './SliderComp.js'
+import {Form, FormGroup, FormControl } from 'react-bootstrap'
 import Textbox from './Textbox'
 import Slider from 'rc-slider'
 import Checkbox from 'material-ui/Checkbox'
@@ -15,7 +16,20 @@ class Sidebar extends Component {
         <div className="SliderComp">
           <h4> General Search Criteria</h4>
           <h5>Total Followers</h5>
-          <Textbox/>
+          <div>
+            <Form inline className="form">
+              <FormGroup controlId="formBasicText">         
+                <FormControl
+                  type="text"           
+                  placeholder="0"           
+                /> 
+                <FormControl
+                  type="text"           
+                  placeholder="5M+"           
+                />          
+              </FormGroup>
+            </Form>
+          </div>
           <SliderComp/>
           <h5>Vertical</h5>
           <select multiple={true} style={{width: '200px'}} >
