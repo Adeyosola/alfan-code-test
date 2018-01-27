@@ -17,17 +17,15 @@ class Sidebar extends Component {
           <h4> General Search Criteria</h4>
           <h5>Total Followers</h5>
           <div>
-            <form className="form-inline">
-              <FormGroup controlId="formBasicText">         
-                <FormControl
+            <form className="form-inline">                      
+                <FormControl className="form-control"
                   type="text"           
                   placeholder="0"           
-                /> 
-                <FormControl
+                />                
+                <FormControl className="form-control"
                   type="text"           
                   placeholder="5M+"           
-                />          
-              </FormGroup>
+                />
             </form>
           </div>
           <SliderComp/>
