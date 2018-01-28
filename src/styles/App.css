@@ -65,9 +65,12 @@
   margin: 10px 0 10px 10px;
 }
 
-.form-inline {
+.form-inline .form-group {
   width: 60%;
-  /*margin: 0  5px 0 0;*/
+  margin-right: 4px;
+}
+.form-inline > * {
+  margin:15px 3px !important;
 }
 
 .form-control {

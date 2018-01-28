@@ -17,16 +17,19 @@ class Sidebar extends Component {
           <h4> General Search Criteria</h4>
           <h5>Total Followers</h5>
           <div>
-            <form className="form-inline">                      
-                <FormControl className="form-control"
+            
+            <Form className="form-inline">
+              <FormGroup controlId="formBasicText" className="form-group">         
+                <FormControl
                   type="text"           
-                  placeholder="0"           
-                />                
-                <FormControl className="form-control"
+                  placeholder="30%"           
+                /> 
+                <FormControl 
                   type="text"           
                   placeholder="5M+"           
-                />
-            </form>
+                />                       
+              </FormGroup>
+            </Form>
           </div>
           <SliderComp/>
           <h5>Vertical</h5>
@@ -58,7 +61,7 @@ class Sidebar extends Component {
             size='2x'
             style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)',  margin:'20px' }}
           />
-          <Form className="form-inline form">
+          <Form className="form-inline">
               <FormGroup controlId="formBasicText">         
                 <FormControl
                   type="text"           
